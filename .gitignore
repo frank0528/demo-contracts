@@ -1,0 +1,19 @@
+node_modules
+.env
+coverage
+coverage.json
+
+#Hardhat files
+cache
+artifacts
+build/
+contracts/README.md
+contracts/build/
+contracts/typechain/
+
+.yarn/*
+!.yarn/releases
+!.yarn/patches
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
