@@ -16,8 +16,9 @@
   "scripts": {
     "clean": "hardhat clean",
     "build": "hardhat compile",
-    "test": "hardhat run --network hardhat scripts/deploy.ts",
-    "test-dbc": "hardhat run --network dbcTestnet scripts/deploy.ts",
+    "deploy": "hardhat run --network hardhat scripts/deploy.ts",
+    "test": "hardhat run --network hardhat scripts/test.ts",
+    "deploy-dbc": "hardhat run --network dbcTestnet scripts/deploy.ts",
     "lint": "solhint contracts/**/*.sol"
   },
   "devDependencies": {
