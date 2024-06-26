@@ -20,10 +20,10 @@ const config: HardhatUserConfig = {
     }
   },
   networks: {
-    local: {
+    localhost: {
       url: 'http://127.0.0.1:8545',
       accounts: {
-        mnemonic: process.env.MNEMONIC || 'fox sight canyon orphan hotel grow hedgehog build bless august weather swarm',
+        mnemonic: process.env.MNEMONIC || 'bottom drive obey lake curtain smoke basket hold race lonely fit walk',
         path: "m/44'/60'/0'/0",
       },
       chainId: 19850818
