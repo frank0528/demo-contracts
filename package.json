@@ -18,7 +18,7 @@
     "build": "hardhat compile",
     "deploy": "hardhat run --network hardhat scripts/deploy.ts",
     "test": "hardhat run --network hardhat scripts/test.ts",
-    "deploy-dbc": "hardhat run --network dbcTestnet scripts/deploy.ts",
+    "deploy-dbc-testnet": "hardhat run --network dbcTestnet scripts/deploy.ts",
     "lint": "solhint contracts/**/*.sol"
   },
   "devDependencies": {

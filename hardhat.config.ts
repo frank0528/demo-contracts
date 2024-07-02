@@ -29,7 +29,7 @@ const config: HardhatUserConfig = {
       chainId: 19850818
     },
     dbcTestnet: {
-      url: 'https://infotest.dbcwallet.io/rpc',
+      url: 'https://rpc-testnet.dbcwallet.io',
       accounts: {
         mnemonic: process.env.MNEMONIC || '',
       },
@@ -37,7 +37,7 @@ const config: HardhatUserConfig = {
       timeout: 600000,
     },
     dbcMainnet: {
-      url: 'https://info1.dbcwallet.io/rpc',
+      url: 'https://rpc.dbcwallet.io',
       accounts: {
         mnemonic: process.env.MNEMONIC || '',
       },
@@ -56,7 +56,7 @@ const config: HardhatUserConfig = {
         chainId: 19850818,
         urls: {
           apiURL: "https://blockscout-testnet.dbcscan.io/api",
-          browserURL: "https://blockscout.dbcscan.io",
+          browserURL: "https://blockscout-testnet.dbcscan.io",
         },
       },
       {
