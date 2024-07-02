@@ -48,7 +48,7 @@ const config: HardhatUserConfig = {
   etherscan: {
     apiKey: {
       dbcTestnet: 'no-api-key-needed',
-      dbc: 'no-api-key-needed',
+      dbcMainnet: 'no-api-key-needed',
     },
     customChains: [
       {
